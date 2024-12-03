@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+
+}
+h1{
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+      
+}
+
+
+.title{
+    font-size: 4rem;
+    line-height: 6rem;
+}
+.info  p,button{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.info h2{
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+}
+
+footer > *{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+span{
+    text-decoration:underline;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.text-p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+}
+
+button{
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #222;
+    min-height: 3rem;
+    width: 200px;
+    font-weight: bold;
+}

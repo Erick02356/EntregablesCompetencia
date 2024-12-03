@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTAFOLIO WEB</title>
+</head>
+<body>
+    <main class="container">
+        <section class="seccion_principal">
+            <article class="flex-column">
+                <h1>Erick Santiago Rodríguez Caicedo</h1>
+                <img src="./img/Selfie.jpeg" alt="Soy ese" width="300">
+                <span>Estudiante de ingeniería de sistemas y análisis y desarrollo de software</span> 
+            </article>
+            <article class="centrar">
+               
+                <h2>P E R F I L</h2>
+                <p>
+                    Mi enfoque principal es desempeñarme de manera efectiva en todas las actividades asignadas, asegurando la correcta ejecución y cumpliendo con los plazos establecidos. Me considero una persona activa, responsable y comprometida, con habilidades para trabajar en equipo.
+                </p>
+                <a href="#contacto">
+                    <button type="button" class="contactame">CONTACTAME</button>
+                </a>    
+            </article>
+        </section>
+        <section class="padding-bottom">
+            <h2>Mis habilidades</h2>
+            <div class="habilidades">
+                <div>
+                    <h3>HABILIDADES PERSONALES</h3>
+                    <ul>
+                        <li>Creatividad e innovación</li>
+                        <li>Comunicación</li>
+                        <li>Servicio al cliente</li>
+                        <li>Liderazgo</li>
+                        <li>Orientación al progreso</li>
+                        <li>Resolución de problemas</li>
+                        <li>Adaptabilidad</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Organización</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>HABILIDADES TECNICAS</h3>
+                    <ul>
+                        <li>HTML-Intermedio</li>
+                        <li>CSS-Intermedio</li>
+                        <li>TAILWIND-Básico</li>
+                        <li>JAVASCRIPT-Básico</li>
+                        <li>REACT-Básico</li>
+                        <li>C#-Intermedio</li>
+                        <li>ASP.NET-Básico</li>
+                        <li>SQL-Básico</li>
+                        <li>MONGODB-Básico</li>
+                        <li>UML-Intermedio</li>
+                    </ul>
+                </div>
+               
+            </div>     
+        </section>
+        <section class="proyectos">
+            <h2 class="texto-centrado">MIS PROYECTOS</h2>
+            <div class="card-container">
+                <article class="card">
+                    <img src="./img/ezzend.png" alt="PROYECTOS">
+                    <h3 class="card-title">EZZEND</h3>
+                    <p class="card-text">Tuve la oportunidad de trabajar como desarrollador Front-end para ezzend una empresa de comercio al por mayor de materiales de construccion, desarrolle fuciones como maquetador y estilado con la tecnología Tailwind CSS</p>
+                    <a href="https://ezzend.com/" class="projects-button">VISITAR SITIO WEB</a>
+                </article>
+                <article class="card">
+                    <img src="./img/bancastri.png" alt="PROYECTOS">
+                    <h3 class="card-title">BANCASTRI</h3>
+                    <p class="card-text">Realice un simulador de credito de bancos en ASP.NET con la arquitectura MVC, el plus de la app es que cuenta con un grafico de como se comportan los intereses y puedes guardar la simulación tanto en PDF como en Excel</p>
+                    <a href="https://github.com/Erick02356/simulador-credito" class="projects-button">VISITA EL REPOSITORIO</a>
+
+                </article>
+                <article class="card">
+                    <img src="./img/ecommerce.png" alt="PROYECTOS">
+                    <h3 class="card-title texto-centrado">E-COMMERCE HARDWARE</h3>
+                    <p class="card-text">Se realizo un e-commerce como proyecto para afianzar los conocimientos en ASP.NET con Entity Framework, utilizando la arquitectura MVC</p>
+                    <a href="https://github.com/Erick02356/E-commerce-de-hardware?tab=readme-ov-file" class="projects-button">VISITA EL REPOSITORIO</a>
+
+                </article>
+            </div>
+        </section>
+        <section class="centrar formulario">
+            <div class="contact-form-container">
+                <h2 class="contact-form-title">Contáctame</h2>
+                <form id="contacto" method="post" class="contact-form">
+                    <label for="name" class="contact-label">Nombre</label>
+                    <input type="text" id="name" name="name" class="contact-input" required>
+        
+                    <label for="email" class="contact-label">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" class="contact-input" required>
+        
+                    <label for="subject" class="contact-label">Asunto</label>
+                    <input type="text" id="subject" name="subject" class="contact-input" required>
+        
+                    <label for="message" class="contact-label">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" class="contact-textarea" required></textarea>
+        
+                    <button type="submit" class="contact-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Mi Portafolio</h3>
+            <p>Gracias por visitar mi portafolio. Aquí puedes encontrar enlaces a mis redes sociales y formas de contactarme.</p>
+            
+            <ul class="socials">
+                <li><a href="https://www.youtube.com/channel/UCzzWHFDYSkNHXGpKDuZ5pEw" target="_blank">Youtube</a></li>
+                <li><a href="https://www.linkedin.com/in/erick-rodriguez-351687227/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Erick02356" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Erick Santiago Rodríguez Caicedo. Todos los derechos reservados.</p>
+            <p>Email: eick02356@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
