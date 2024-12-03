@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS academia_idiomas DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+USE academia_idiomas;
+ 
+CREATE TABLE cursos (
+  codigo int(11) NOT NULL,
+  nombre varchar(30) COLLATE utf8_bin DEFAULT NULL,
+  horario varchar(11) COLLATE utf8_bin DEFAULT NULL,
+  fecha_inicio date DEFAULT NULL,
+  fecha_fin date DEFAULT NULL,
+  precio double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+ 
+INSERT INTO cursos (codigo, nombre, horario, fecha_inicio, fecha_fin, precio) VALUES
+(1, 'Ingles', '08:00-14:00', '2019-03-01', '2019-03-29', 250.5),
+(2, 'Frances', '16:00-19:00', '2019-04-01', '2019-04-29', 200);
+ 
+ALTER TABLE cursos
+  ADD PRIMARY KEY (codigo);
+ 
+ALTER TABLE cursos
+  MODIFY codigo int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
