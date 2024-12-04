@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Estilo para las celdas */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para el encabezado */
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para filas alternas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover en las filas */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.boton{
+    padding: 1rem;
+    background-color: #217cd2;
+    color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+img{
+    width: 30px;
+    height:30px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.cabecera{
+    min-height: 150px;
+}
+.flex-form{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    margin: auto;
+}
+
+.flex-labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+label{
+    max-width: 130px;
+    text-align: left;
+}
+input{
+    min-width: 170px;
+}
+.boton-abajo{
+    padding-top:2rem ;
+   
+}
+.boton-abajo , button{
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-labels{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    label{
+        max-width: none;
+        text-align: left;
+    }
+}
